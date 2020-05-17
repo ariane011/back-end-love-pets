@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());  // "Dizer" para o express que estaremos usando o json no corpo das requições
 app.use(routes);
-app.listen(3333);
+// app.listen(3333);
 
 var porta = process.env.PORT || 8080;
 app.listen(porta);
